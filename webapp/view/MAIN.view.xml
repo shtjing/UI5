@@ -1,0 +1,12 @@
+<core:View height="100%" xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:tnt="sap.tnt"
+	xmlns:html="http://www.w3.org/1999/xhtml" controllerName="PortalProduct.controller.MAIN">
+	<tnt:ToolPage id="toolPage">
+		<tnt:mainContents>
+			<NavContainer id="pageContainer" initialPage="page2">
+				<pages>
+					<mvc:XMLView viewName="PortalProduct.view.ToolPage"></mvc:XMLView>
+				</pages>
+			</NavContainer>
+		</tnt:mainContents>
+	</tnt:ToolPage>
+</core:View>

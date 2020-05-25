@@ -1,0 +1,136 @@
+<mvc:View controllerName="PortalProduct.controller.ToolPage" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:l="sap.ui.layout">
+	<App>
+		<pages>
+			<Page  title="大数据系统导航" showNavButton="false" showHeader="false">
+				<content>
+					<l:BlockLayout id="BlockLayout" background="Default">
+						<l:BlockLayoutRow>
+							<l:BlockLayoutCell width="1" backgroundColorSet="ColorSet9" backgroundColorShade="ShadeA"></l:BlockLayoutCell>
+							<l:BlockLayoutCell width="48" class="sapUiNoContentPadding" backgroundColorSet="ColorSet9" backgroundColorShade="ShadeA">
+								<Image src="images/title01.jpg" densityAware="false" width="100%" height="100%">
+									<layoutData>
+										<FlexItemData growFactor="0"/>
+									</layoutData>
+								</Image>
+							</l:BlockLayoutCell>
+							<l:BlockLayoutCell width="1" backgroundColorSet="ColorSet9" backgroundColorShade="ShadeA"></l:BlockLayoutCell>
+						</l:BlockLayoutRow>
+						
+						<l:BlockLayoutRow>
+							<l:BlockLayoutCell width="1" backgroundColorSet="ColorSet9" backgroundColorShade="ShadeA"></l:BlockLayoutCell>
+							
+							<l:BlockLayoutCell width="6" backgroundColorSet="ColorSet9" backgroundColorShade="ShadeA">
+								<l:VerticalLayout>
+								<Image src="images/FICO.png" densityAware="false" width="100%"  press="onFICO"></Image>
+								</l:VerticalLayout>
+							</l:BlockLayoutCell>
+							
+							<l:BlockLayoutCell width="6" backgroundColorSet="ColorSet9" backgroundColorShade="ShadeA">
+								<l:VerticalLayout>
+ 								<Image src="images/oa.png" densityAware="false" width="100%"  press="onOA" ></Image>
+								</l:VerticalLayout> 
+							</l:BlockLayoutCell>
+							
+							<l:BlockLayoutCell width="6" backgroundColorSet="ColorSet9" backgroundColorShade="ShadeA">
+								<l:VerticalLayout>
+								<Image src="images/srm.png" densityAware="false" width="100%"  press="onSRM" ></Image>									
+								</l:VerticalLayout>
+							</l:BlockLayoutCell>
+							
+							<l:BlockLayoutCell width="6" backgroundColorSet="ColorSet9" backgroundColorShade="ShadeA">
+								<l:VerticalLayout>
+								<Image src="images/TAX.png" densityAware="false" width="100%"  press="onTAX" ></Image>									
+								</l:VerticalLayout>
+							</l:BlockLayoutCell>
+							
+							<l:BlockLayoutCell width="6" backgroundColorSet="ColorSet9" backgroundColorShade="ShadeA">
+								<l:VerticalLayout>
+								<Image src="images/ecm.png" densityAware="false" width="100%"  press="onECM" ></Image>									
+								</l:VerticalLayout>
+							</l:BlockLayoutCell>
+							
+							<l:BlockLayoutCell width="6" backgroundColorSet="ColorSet9" backgroundColorShade="ShadeA">
+								<l:VerticalLayout>
+ 								<Image src="images/grcpt.png" densityAware="false" width="100%"  press="onGRCPT" ></Image>
+								</l:VerticalLayout> 
+							</l:BlockLayoutCell>
+							
+							<l:BlockLayoutCell width="6" backgroundColorSet="ColorSet9" backgroundColorShade="ShadeA">
+								<l:VerticalLayout>
+ 								<Image src="images/SAC.png" densityAware="false" width="100%"  press="onSAC" ></Image>
+								</l:VerticalLayout> 
+							</l:BlockLayoutCell>
+							
+							<l:BlockLayoutCell width="6" backgroundColorSet="ColorSet9" backgroundColorShade="ShadeA">
+								<l:VerticalLayout>
+ 								<Image src="images/trade800.png" densityAware="false" width="100%"  press="onTrade800" ></Image>
+								</l:VerticalLayout> 
+							</l:BlockLayoutCell>
+							
+							<l:BlockLayoutCell width="1" backgroundColorSet="ColorSet9" backgroundColorShade="ShadeA"></l:BlockLayoutCell>
+						</l:BlockLayoutRow>
+						
+						<l:BlockLayoutRow>
+							<l:BlockLayoutCell width="1" backgroundColorSet="ColorSet9" backgroundColorShade="ShadeA"></l:BlockLayoutCell>
+							
+							<l:BlockLayoutCell width="6" backgroundColorSet="ColorSet9" backgroundColorShade="ShadeA">
+								<l:VerticalLayout>
+  								<Image src="images/FICO1.png" densityAware="false" width="100%"  press="onFICO1" ></Image>
+								</l:VerticalLayout>
+							</l:BlockLayoutCell>
+							
+							<l:BlockLayoutCell width="6" backgroundColorSet="ColorSet9" backgroundColorShade="ShadeA">
+								<l:VerticalLayout>
+      							<Image src="images/safe.png" densityAware="false" width="100%"  press="onSAFE" >
+								</Image>
+								</l:VerticalLayout>
+							</l:BlockLayoutCell>
+							
+							<l:BlockLayoutCell width="6" backgroundColorSet="ColorSet9" backgroundColorShade="ShadeA">
+								<l:VerticalLayout>
+   								<Image src="images/MDM.png" densityAware="false" width="100%"  press="onMDM" ></Image>
+								</l:VerticalLayout>
+							</l:BlockLayoutCell>
+							
+                        	<l:BlockLayoutCell width="6" backgroundColorSet="ColorSet9" backgroundColorShade="ShadeA">
+								<l:VerticalLayout>
+    							<Image src="images/contract.png" densityAware="false" width="100%"  press="onCON" ></Image>
+								</l:VerticalLayout>
+							</l:BlockLayoutCell>	
+							
+							<l:BlockLayoutCell width="6" backgroundColorSet="ColorSet9" backgroundColorShade="ShadeA">
+								<l:VerticalLayout>
+     							<Image src="images/bpc.png" densityAware="false" width="100%"  press="onBPC" ></Image>
+								</l:VerticalLayout>
+							</l:BlockLayoutCell>
+							
+							<l:BlockLayoutCell width="6" backgroundColorSet="ColorSet9" backgroundColorShade="ShadeA">
+								<l:VerticalLayout>
+      							<Image src="images/GRC.png" densityAware="false" width="100%"  press="onGRC" ></Image>
+								</l:VerticalLayout>
+							</l:BlockLayoutCell>	
+							
+							<l:BlockLayoutCell width="6" backgroundColorSet="ColorSet9" backgroundColorShade="ShadeA">
+								<l:VerticalLayout>
+      							<Image src="images/bw.png" densityAware="false" width="100%"  press="onBW" >
+								</Image>
+								</l:VerticalLayout>
+							</l:BlockLayoutCell>
+							
+							<l:BlockLayoutCell width="6" backgroundColorSet="ColorSet9" backgroundColorShade="ShadeA">
+								<l:VerticalLayout>
+      							<Image src="images/trade810.png" densityAware="false" width="100%"  press="onTrade810" >
+								</Image>
+								</l:VerticalLayout>
+							</l:BlockLayoutCell>
+							
+							<l:BlockLayoutCell width="1" backgroundColorSet="ColorSet9" backgroundColorShade="ShadeA"></l:BlockLayoutCell>
+							
+						</l:BlockLayoutRow>
+					</l:BlockLayout>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

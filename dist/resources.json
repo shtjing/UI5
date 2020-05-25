@@ -1,0 +1,117 @@
+{
+    "resources": [
+        {
+            "name": "controller/MAIN.controller.js"
+        },
+        {
+            "name": "controller/ToolPage.controller.js"
+        },
+        {
+            "name": "model/models.js"
+        },
+        {
+            "name": "index.html"
+        },
+        {
+            "name": "manifest.json"
+        },
+        {
+            "name": "i18n/i18n.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "view/MAIN.view.xml"
+        },
+        {
+            "name": "view/ToolPage.view.xml"
+        },
+        {
+            "name": "Component.js"
+        },
+        {
+            "name": "images/MY.png"
+        },
+        {
+            "name": "images/SAFE.png"
+        },
+        {
+            "name": "images/title02.png"
+        },
+        {
+            "name": "images/trade800.png"
+        },
+        {
+            "name": "images/bw.png"
+        },
+        {
+            "name": "images/MDM.png"
+        },
+        {
+            "name": "images/SRM.png"
+        },
+        {
+            "name": "images/erp.png"
+        },
+        {
+            "name": "images/SAC.png"
+        },
+        {
+            "name": "images/homeImage.jpg"
+        },
+        {
+            "name": "images/GRC.png"
+        },
+        {
+            "name": "images/title.png"
+        },
+        {
+            "name": "images/OA.png"
+        },
+        {
+            "name": "images/FICO1.png"
+        },
+        {
+            "name": "images/BPC.png"
+        },
+        {
+            "name": "images/GRCPT.png"
+        },
+        {
+            "name": "images/TAX.png"
+        },
+        {
+            "name": "images/trade810.png"
+        },
+        {
+            "name": "images/FICO.png"
+        },
+        {
+            "name": "images/title01.png"
+        },
+        {
+            "name": "images/contract.png"
+        },
+        {
+            "name": "images/title01.jpg"
+        },
+        {
+            "name": "images/ECM.png"
+        },
+        {
+            "name": "css/style.css"
+        },
+        {
+            "name": "img/Picture1.png"
+        },
+        {
+            "name": "img/first.png"
+        },
+        {
+            "name": "Component-preload.js",
+            "merged": true
+        },
+        {
+            "name": "neo-app.json"
+        }
+    ]
+}
